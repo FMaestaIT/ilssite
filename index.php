@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,24 +21,7 @@
             <img src="locandina-2022-724x1024.png.webp" style=" align:center">
         </main>
 
-        <footer class="site-footer">
-			<div class="footer-bg">
-				<svg width="385" height="305" xmlns="http://www.w3.org/2000/svg">
-				    <defs>
-				        <linearGradient x1="50%" y1="34.994%" x2="50%" y2="97.738%" id="footer-bg">
-				            <stop stop-color="#151616" offset="0%"/>
-				            <stop stop-color="#222424" offset="100%"/>
-				        </linearGradient>
-				    </defs>
-				    <path d="M384.557 116.012V305H0L210.643 0l173.914 116.012z" fill="url(#footer-bg)" fill-rule="evenodd"/>
-				</svg>
-			</div>
-            <div class="container">
-                <div class="site-footer-inner has-top-divider">
-                    <div class="footer-copyright">ILS Rieti, dal 2018</div>
-                </div>
-            </div>
-        </footer>
+    
     </div>
 
     <script src="dist/js/main.min.js"></script>
