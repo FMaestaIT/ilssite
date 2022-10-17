@@ -18,7 +18,9 @@
         
 
         <main>
-            <img src="locandina-2022-724x1024.png.webp" style=" align:center">
+			<div style="width: 100%; border: 1px solid red;" align="center">
+				<img src="locandina-2022-724x1024.png.webp">
+			</div>
         </main>
 
     
