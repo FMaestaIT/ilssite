@@ -1,0 +1,11 @@
+.site-header {
+    position: relative;
+    padding: 24px 0;
+}
+
+.site-header-inner {
+    position: relative; /* To display all elements above the background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

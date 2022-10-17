@@ -1,0 +1,32 @@
+.side-nav
+  position: relative
+  display: flex
+  width: 120px
+  height: 70%
+  max-height: 750px
+  flex-direction: column
+  justify-content: space-around
+  margin: 0
+  padding: 0
+  list-style-position: inside
+  z-index: 10
+
+  & > li
+    position: relative
+    top: -5px
+    color: $white
+    font-size: 6px
+    cursor: pointer
+
+    span
+      position: relative
+      color: $white
+      font-size: 14px
+      font-weight: 300
+
+  li.is-active
+    color: $highlight
+    transition: color .4s ease-in-out
+
+  li.is-active span
+    font-weight: 500

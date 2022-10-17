@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <link href='https://necolas.github.io/normalize.css/latest/normalize.css' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='assets/simplegrid.css' rel='stylesheet' type='text/css'>
+        <meta property="og:title" content="Linux Presentation Day 2016 a Rieti"/>
+        <meta property="og:image" content="http://lugrieti.linux.it/assets/opengraph.png"/>
+        <meta property="og:url" content="http://lugrieti.linux.it"/>
+        <title>Linux Presentation Day 2016 a Rieti</title>
+        <style>
+        body {
+            background-color:#89b7d0;
+            font-family: 'Open Sans', sans-serif;
+        }
+        b {
+            color:#000;
+        }
+        h1 {
+            margin: 0.2em 0;
+        }
+        h2 {
+            margin: 0.15em 0;
+        }
+        h3 {
+            margin: 0.1em 0;
+        }
+        h4 {
+            margin: 0.05em 0;
+        }
+        h1,h2 {
+            color:#FFF;
+        }
+        h3 {
+            color:#2A2828;
+        }
+        ul {
+            margin-top: 5px;
+        }
+        li {
+            line-height: 2em;
+            list-style:none;
+        }
+        .banner .terminillo {
+            max-width:100%;
+            height:auto;
+        }
+        .footer {
+            background-color:#E0E0E0;
+            text-align:center;
+            padding: 5px 5px 1px;
+        }
+        .paracadute {
+            position: fixed;
+            top: 40px;
+            z-index:99999;
+            padding-left: 25px;
+            -webkit-animation-duration: 5s; 
+            animation-duration: 5s; 
+            animation-iteration-count: infinite;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-fill-mode: both; 
+            animation-fill-mode: both; 
+            -webkit-transform-origin: center top;
+            transform-origin: center top;
+            -webkit-animation-name: swing; 
+            animation-name: swing; 
+        }
+        @keyframes swing {
+            0% {
+            transform: rotate(10deg);
+            }
+            50% {
+            transform: rotate(-5deg);
+            }
+            100%{
+            transform: rotate(10deg);
+            }
+        }
+        @media (max-width: 770px) {
+            .paracadute {
+                position: absolute;
+                width: 180px;
+            }
+        }
+        @media (max-width: 700px) {
+            .paracadute {
+                width: 140px;
+            }
+        }
+        @media (max-width: 560px) {
+            .paracadute {
+                width: 100px;
+            }
+        }
+        @media (max-width: 360px) {
+            .paracadute {
+                width: 80px;
+            }
+        }
+        .aereo {
+            position:relative;
+            animation:volar 5s infinite;
+            -webkit-animation: volar 5s infinite;
+        }
+        @keyframes volar {
+            0%{
+                    top:-20px;
+                    left:50px;
+            }
+            50%{
+                    top:12px;
+                    left:-50px;
+            }
+            100%{
+                    top:-20px;
+                    left:50px;
+            }
+        }
+        @-webkit-keyframes volar{
+            0%{
+                    top:-20px;
+                    left:50px;
+            }
+            50%{
+                    top:12px;
+                    left:-50px;
+            }
+            100%{
+                    top:-20px;
+                    left:50px;
+            }
+        }
+        </style>
+    </head>
+    <body>
+    <div class="grid grid-pad" style="text-align:center;">
+        <div class="col-1-1">
+           <div class="content" style="margin-top:-20px;">
+                <div class="banner">
+                    <img src="assets/paracadute.png" class="paracadute swing">
+                    <img src="assets/terminillo2.png" class="terminillo">
+                </div>
+                <h1>Linux Presentation Day a Rieti</h1>
+                <h3>23 Aprile - IIS Luigi di Savoia, Viale Maraini 54</h3>
+           </div>
+           <div class="content">
+               <h2>Vieni a scoprire Linux e l'Open Source!</h2>
+               <h3>L'evento é gratuito, aperto a tutti e divulgativo!</h3>
+           </div>
+           <div class="content">
+                <ul>
+                    <li><b>9:00 - 9:05</b> <i>Benvenuto</i></li>
+                    <li><b>9:05 - 10:05</b> <i>Cos'é l’open source e Linux</i> - <b>Daniele Scasciafratte e Alessandro Casanica</b></li>
+                    <li><b>10:05 - 10:25</b> <i>Join Mozilla we have cookies</i> - <b>Gabriele Falasca</b></li>
+                    <li><b>10:25 - 10:40</b> <i>Ricreazione per gli studenti</i></li>
+                    <li><b>10:40 - 11:10</b> <i>LibreOffice, TDF e LibreItalia: Software & Community per un Formato Standard</i> - <b>Gabriele Ponzo</b></li>
+                    <li><b>11:10 - 11:30</b> <i>Blogga con WordPress</i> - <b>Eugenio Petullá</b></li>
+                    <li><b>11:30 - 12:10</b> <i>Come abbiamo costruito una stampante 3D in garage</i> - <b>Guglielmo De Santis e Marco Petrucci</b></li>
+                    <li><b>12:10 - 12:30</b> <i>Un media center con il Raspberry Pi</i> - <b>Daniele Scasciafratte</b></li>
+                    <li><b>12:30 - 12:50</b> <i>Programma con l'open source!</i> - <b>Eugenio Petullá</b></li>
+                    <li><b>12:50 - 13:50</b> <i>Install Fest & Discussione aperta</i></li>
+                </ul>
+            </div>
+           <div class="content">
+                <img src="assets/aereo.png" class="aereo flying">
+               <h2>Gadget in omaggio ai partecipanti</h2>
+               <h3>L'evento é gratuito, aperto a tutti e divulgativo!</h3>
+               <h4>Evento Facebook: <a href="https://www.facebook.com/events/1759151454297927/">https://www.facebook.com/events/1759151454297927/</a></h4>
+           </div>
+        </div>
+    </div>
+    <div class="footer">
+         <a href="http://pcnetwork.biz/"><img src="assets/pcnetwork.png" style="background-color:#414141"></a>
+         <a href="http://codeat.co/"><img src="assets/codeat.png" style="background-color:#4E3A4C"></a>
+    </div>
+    </body>
+</html>
